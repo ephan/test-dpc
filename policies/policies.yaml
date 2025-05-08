@@ -1,4 +1,5 @@
-- name: eric-demo-accounts
-  resource: aws.account
-  conditions:
-    - region: us-east-1
+policies:
+  - name: eric-demo-accounts
+    resource: aws.account
+    conditions:
+      - region: us-east-1
