@@ -2,4 +2,4 @@ policies:
   - name: eric-demo-accounts
     resource: aws.account
     conditions:
-      - region: us-east-2
+      - region: us-east-1
